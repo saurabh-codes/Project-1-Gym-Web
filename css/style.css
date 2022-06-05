@@ -1,0 +1,477 @@
+/* Universal Values */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.uni_padding{
+    padding: 0 7%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Universal Values End */
+
+
+/* Header Section Start */
+
+/* top-bar */
+#top_bar{
+    overflow: auto;
+    background-color: #262626;
+}
+
+#logo img{
+    width: 80px;
+    float: left;
+    margin: 1.5rem 0rem;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#social-icons{
+    float: right;
+    margin: 1.8rem 0rem;
+}
+
+.fa-brands{
+    background-color: #ffffff;
+    color: #262626;
+    padding: 0.438rem;
+    border-radius: 50%;
+}
+
+
+.fa-facebook{
+    padding: 7px 8px;
+}
+
+.fa-instagram{
+    padding: 7px 9px;
+}
+
+.fa-linkedin{
+    padding: 8px 9px;
+}
+
+.fa-brands:hover{
+    color: #eeb504;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar */
+#navbar{
+    background-color: #eeb504;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 1.25rem 0rem;
+    padding-right: 1.6rem;
+}
+
+#navbar ul li a{
+    color: #262626;
+    font-size: 1.125em;
+}
+
+#navbar ul li a:hover{
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Header Section End  */
+
+
+/* Banner Section Start */
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+#banner h1{
+    font-size: 3rem;
+}
+
+#banner h3{
+    text-transform: uppercase;
+    color: #eeb504;
+}
+
+#banner p{
+    text-align: center;
+    font-variant: small-caps;
+    color: #eeb504;
+}
+
+/* End Banner Section */
+
+
+/* Why Us Section Start */
+#why_us{
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.heading{
+    color: #262626;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.sub_heading{
+    color: #eeb504;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sec_33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0rem 3rem 0rem 3rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+.sec_33 img{
+    /* width: 250px; */
+    width: 16rem;
+}
+
+.img_img{
+    /* height: 250px; */
+    height: 16rem;
+    border: 2px solid #262626;
+}
+
+.sec_33 h2{
+    color: #eeb504;
+}
+
+.sec_33 p{
+    color: #262626;
+}
+
+/* End Why Us Section */
+
+
+/* Join Us Section Start */
+#join_us{
+    background-color: #eeb504;
+    color: #262626;
+    overflow: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#sec_70{
+    width: 70%;
+    float: left;
+}
+
+#sec_70 h1{
+    color: #020104;
+    margin-bottom: 0.5rem
+}
+
+#sec_30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 2.3rem;
+}
+
+#join_btn{
+    background-color: #262626;
+    color: #ffffff;
+    padding: 1.2rem 2.8rem;
+    text-decoration: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#join_btn:hover{
+    background-color: #ffffff;
+    color: #262626;
+    transition: all 0.3s ease-in-out;
+}
+
+/* End Join Us Section */
+
+
+/* Services Section Start */
+#services{
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+/* End Services Section */
+
+
+/* Membership Section Start */
+#membership{
+    background-color: #eeb504;
+    color: #020104;
+    overflow: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.sec_50{
+    width: 50%;
+    float: left;
+}
+
+.sec_50 h2{
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 3rem;
+    padding-top: 0.6rem;
+}
+
+.sec_50 form{
+    padding-top: 0.3rem;
+}
+
+.sec_50 input[type="text"]{
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    color: #eeb504;
+    margin-right: 0.5rem;
+    border: 0px;
+    width: 45%;
+}
+
+.sec_50 input[type="submit"]{
+   padding: 0.7rem 2.2rem;
+   font-size: 1rem;
+   color: #eeb504;
+   border-radius: 0.6rem;
+   border: 0px; 
+}
+
+.sec_50 input[type="submit"]:hover{
+    background-color: #262626;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* End Membership Section */
+
+
+/* Footer Section Start */
+/* Links */
+#links{
+    background-color: #020104;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 1.5rem 3rem;
+}
+
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 2px;
+    padding-bottom: 1rem;
+}
+
+.div33 ul{
+    list-style-type: none;    
+}
+
+.div33 ul li{
+    padding-bottom: 1rem;
+}
+
+.div33 ul li a{
+    color: #ffffff;
+}
+
+.div33 ul li a:hover{
+    color: #eeb504;
+    transition: all 0.3s ease-in-out;
+}
+
+.sec_2{
+    padding-left: 10rem;
+}
+
+/* Copyright */
+#copyright{
+    background-color: #262626;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+}
+/* End Footer Section */
+
+/* Mobile Menu Hide Start */
+#navbar ul #mob_cross, #mob_hamburger{
+    display: none;
+}
+
+/* End Mobile Menu Hide */
+
+
+/* Responsive Design Start */
+
+@media only screen and (max-width: 616px){   
+    /* Join Us Section */
+    #sec_70 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    #sec_30 {
+        width: 100%;
+        float: none;
+        margin-bottom: 1rem;
+    }
+
+    /* Membership Section */
+    .sec_50{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .sec_50 input[type="submit"]{
+        padding: 0.7rem 1rem;
+    }
+
+    .sec_50 h2{
+        text-align: center;
+    }
+
+    /* Mobile Menu Start */
+    #navbar{
+        background-color: #eeb504;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 80vw;
+        padding: 0;
+    }
+
+    #navbar ul li {
+        display: block;
+        border-bottom: 1px solid #020104;
+        padding-left: 1.5rem;
+    }
+
+    #navbar ul li:hover{
+        background-color: #dfa906;
+    }
+
+    #mob_cross{
+        text-align: right;
+    }
+
+    .fa-circle-xmark{
+        font-size: 1.5rem;
+    }
+
+    #navbar{
+        left: -80vw;
+        transition: all 0.5s ease;
+    }
+
+    #mob_hamburger{
+        background-color: #eeb504;
+        color: #020104;
+        padding: 1.5rem;
+        font-size: 2rem;
+    }
+    
+    /* Mobile Menu Show */
+    #navbar ul #mob_cross, #mob_hamburger{
+        display: block;
+    }
+
+    /* End Mobile Menu */
+}
+
+@media only screen and (max-width: 491px){
+    /* Banner */
+    #banner h1 {
+        text-align: center;
+    }
+
+    .div33{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1132px){
+    /* Why Us Section */
+    .sec_33 {  
+        width: 100%;
+        float: none;
+    }
+    
+    /* Link Section */
+    .div33{
+        width: 100%;
+    }
+
+    .sec_2 {
+        padding-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    /* Why Us Section */
+    .sec_33 {
+        padding: 0;
+    }
+
+    .sec_50 input[type="submit"]{
+        padding: 0.7rem 0.5rem;
+    }
+
+    .sec_50 h2{
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+
+    /* Banner */
+    #banner h1 {
+        font-size: 2.2rem;
+    }
+    
+    /* Link Section */
+    .sec_2{
+        padding-left: 3rem;
+    }
+}
+
+/* End Responsive Design */
